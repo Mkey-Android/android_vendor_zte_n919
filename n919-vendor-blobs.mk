@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/n919/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zte/n919/proprietary/bin/rild:system/bin/rild \
     vendor/zte/n919/proprietary/bin/thermald:system/bin/thermald \
-    vendor/zte/n919/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/zte/n919/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/zte/n919/proprietary/bin/akmd8962:system/bin/akmd8962 \
     vendor/zte/n919/proprietary/bin/akmd8963:system/bin/akmd8963 \
@@ -46,7 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/n919/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/zte/n919/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/zte/n919/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/zte/n919/proprietary/bin/fmconfig:system/bin/fmconfig
+    vendor/zte/n919/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/zte/n919/proprietary/bin/usbhub:system/bin/usbhub \
+    vendor/zte/n919/proprietary/bin/usbhub_init:system/bin/usbhub_init
 
 #egl
 PRODUCT_COPY_FILES += \
